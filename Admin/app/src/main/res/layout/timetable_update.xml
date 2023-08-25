@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/deep_purple">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/pink_button"
+                android:backgroundTint="@color/light_deer"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:text="Day"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/pink_button"
+                android:backgroundTint="@color/light_deer"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:text="Monday"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/pink_button"
+                android:backgroundTint="@color/light_deer"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:text="Tuesday"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/pink_button"
+                android:backgroundTint="@color/light_deer"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:text="Wednesday"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/pink_button"
+                android:backgroundTint="@color/light_deer"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:text="Thursday"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/pink_button"
+                android:backgroundTint="@color/light_deer"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:text="Friday"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/pink_button"
+                android:backgroundTint="@color/light_deer"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:text="Saturday"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/pink_button"
+                android:backgroundTint="@color/light_deer"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:text="Start"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+
+            <Spinner
+                android:id="@+id/et_mon_s"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/pink_button"
+                android:backgroundTint="@color/light_deer"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:inputType="time"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_tue_s"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/pink_button"
+                android:backgroundTint="@color/light_deer"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:inputType="time"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_wed_s"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/pink_button"
+                android:backgroundTint="@color/light_deer"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:inputType="time"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_thur_s"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/pink_button"
+                android:backgroundTint="@color/light_deer"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_fri_s"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/pink_button"
+                android:backgroundTint="@color/light_deer"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:inputType="time"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_sat_s"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/pink_button"
+                android:backgroundTint="@color/light_deer"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:inputType="time"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/pink_button"
+                android:backgroundTint="@color/light_deer"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:text="End"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+
+            <Spinner
+                android:id="@+id/et_mon_e"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/pink_button"
+                android:backgroundTint="@color/light_deer"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:inputType="time"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_tue_e"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/pink_button"
+                android:backgroundTint="@color/light_deer"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:inputType="time"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_wed_e"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/pink_button"
+                android:backgroundTint="@color/light_deer"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:inputType="time"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_thur_e"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/pink_button"
+                android:backgroundTint="@color/light_deer"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:inputType="time"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_fri_e"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/pink_button"
+                android:backgroundTint="@color/light_deer"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:inputType="time"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_sat_e"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/pink_button"
+                android:backgroundTint="@color/light_deer"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:inputType="time"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <Button
+            android:id="@+id/et_update_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/light_button"
+            android:fontFamily="@font/extra_bold_jost"
+            android:text="Update"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:elevation="6dp"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

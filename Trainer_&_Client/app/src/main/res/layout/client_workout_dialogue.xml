@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grey_blue">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/pink_button"
+        android:backgroundTint="@color/cream"
+        android:fontFamily="@font/righteous"
+        android:gravity="center"
+        android:hint="Title"
+        android:textColorHint="@color/moss_green"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title">
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/pink_button"
+            android:backgroundTint="@color/greenish">
+
+            <TextView
+                android:id="@+id/cno_sets"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="26sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:text=" Sets"
+                android:textColor="@color/black"
+                android:textSize="26sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/pink_button"
+            android:backgroundTint="@color/greenish">
+
+            <TextView
+                android:id="@+id/cno_reps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="26sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:text=" Reps"
+                android:textColor="@color/black"
+                android:textSize="26sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/cworkout_1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/pink_button"
+                android:backgroundTint="@color/cream"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="26sp"
+                android:hint="Workout 1"
+                android:textColorHint="@color/moss_green"/>
+
+            <TextView
+                android:id="@+id/cworkout_2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/pink_button"
+                android:backgroundTint="@color/cream"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="26sp"
+                android:hint="Workout 2"
+                android:textColorHint="@color/moss_green" />
+
+            <TextView
+                android:id="@+id/cworkout_3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/pink_button"
+                android:backgroundTint="@color/cream"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="26sp"
+                android:hint="Workout 3"
+                android:textColorHint="@color/moss_green" />
+
+            <TextView
+                android:id="@+id/cworkout_4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/pink_button"
+                android:backgroundTint="@color/cream"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="26sp"
+                android:hint="Workout 4"
+                android:textColorHint="@color/moss_green" />
+
+            <TextView
+                android:id="@+id/cworkout_5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/pink_button"
+                android:backgroundTint="@color/cream"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="26sp"
+                android:hint="Workout 5"
+                android:textColorHint="@color/moss_green" />
+
+            <TextView
+                android:id="@+id/cworkout_6"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/pink_button"
+                android:backgroundTint="@color/cream"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="26sp"
+                android:hint="Workout 6"
+                android:textColorHint="@color/moss_green" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

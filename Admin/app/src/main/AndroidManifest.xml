@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/NoActionBar"
+        tools:targetApi="31">
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:screenOrientation="portrait" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+
+        <meta-data
+            android:name="android.app.lib_name"
+            android:value="" />
+        </activity>
+        <activity
+            android:name=".Profile.Update_Profile"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Payments.PayTrainer"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Payments.Payment"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Profile.Profile"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Trainer_Schedule.Set_Time"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Membership.Membership_Plans"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Trainer_Schedule.Trainer_Schedule"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Trainee.Trainee"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trainer.Trainer"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Login"
+            android:exported="true"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Trainer.adddata"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

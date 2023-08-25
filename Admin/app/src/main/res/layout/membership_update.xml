@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/white_background"
+        android:backgroundTint="@color/black"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
+
+        <EditText
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/editttext_white"
+            android:backgroundTint="@color/slate_grey"
+            android:ems="10"
+            android:fontFamily="@font/aleo"
+            android:hint="Benifit 1"
+            android:inputType="textPersonName"
+            android:paddingStart="16dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/cream"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/b2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/editttext_white"
+            android:backgroundTint="@color/slate_grey"
+            android:ems="10"
+            android:fontFamily="@font/aleo"
+            android:hint="Benifit 2"
+            android:inputType="textPersonName"
+            android:paddingStart="16dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/cream"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/b3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/editttext_white"
+            android:backgroundTint="@color/slate_grey"
+            android:ems="10"
+            android:fontFamily="@font/aleo"
+            android:hint="Benifit 3"
+            android:inputType="textPersonName"
+            android:paddingStart="16dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/cream"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/editttext_white"
+            android:backgroundTint="@color/slate_grey"
+            android:ems="10"
+            android:drawableStart="@drawable/ic_rupee"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/aleo"
+            android:hint="Price"
+            android:inputType="phone"
+            android:paddingStart="16dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/cream"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/update_btn"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/button_bg"
+            android:text="Update"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

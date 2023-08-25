@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="@color/light_deer">
+
+    <LinearLayout
+        android:layout_marginStart="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <!--                <de.hdodenhof.circleimageview.CircleImageView-->
+        <!--                    android:layout_width="80dp"-->
+        <!--                    android:layout_height="80dp"-->
+        <!--                    android:src="@mipmap/ic_launcher"-->
+        <!--                    android:layout_gravity="center_vertical"-->
+        <!--                    app:civ_border_width="2dp"-->
+        <!--                    app:civ_border_color="#FF000000"-->
+        <!--                    />-->
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="330dp"
+            android:layout_height="111dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nametext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="This is Demo Name"
+                android:textColor="#000"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="12sp"
+                android:autoSizeMaxTextSize="100sp"
+                android:autoSizeStepGranularity="2sp"/>
+
+            <TextView
+                android:id="@+id/phonetext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="This is Phone No"
+                android:textColor="#000"
+                android:textSize="25sp"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="12sp"
+                android:autoSizeMaxTextSize="100sp"
+                android:autoSizeStepGranularity="2sp"/>
+
+
+            <TextView
+                android:id="@+id/plantext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:text="Current Membership Plan"
+                android:layout_marginRight="15dp"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:gravity="end"/>
+
+            <TextView
+                android:id="@+id/valid_till"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:text="Valid Date"
+                android:layout_marginRight="15dp"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:gravity="end"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/editicon"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:src="@drawable/edit" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:id="@+id/deleteicon"
+                android:src="@drawable/delete"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

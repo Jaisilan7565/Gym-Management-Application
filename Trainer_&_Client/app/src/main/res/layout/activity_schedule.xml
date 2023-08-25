@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Trainer.Workout_Schedule.Schedule">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/deep_purple"
+        android:fontFamily="@font/righteous_regular"
+        android:gravity="center"
+        android:text="Workout Plan"
+        android:textColor="@color/pinkish_white"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_margin="40dp"
+        android:layout_marginTop="2dp"
+        app:cardBackgroundColor="@color/mango_yellow"
+        app:cardCornerRadius="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/righteous"
+            android:gravity="center"
+            android:background="@drawable/light_button"
+            android:textColor="@color/yankees_blue"
+            android:text="TextName"
+            android:textSize="24sp" />
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/monday"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/nav_bar_bg"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:text="Monday"
+                android:textColor="@color/light_green"
+                android:textSize="26sp" />
+
+
+            <TextView
+                android:id="@+id/tuesday"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/nav_bar_bg"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:text="Tuesday"
+                android:textColor="@color/light_green"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/wednesday"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/nav_bar_bg"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:text="Wednesday"
+                android:textColor="@color/light_green"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/thursday"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/nav_bar_bg"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:text="Thursday"
+                android:textColor="@color/light_green"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/friday"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/nav_bar_bg"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:text="Friday"
+                android:textColor="@color/light_green"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/saturday"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/nav_bar_bg"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:text="Saturday"
+                android:textColor="@color/light_green"
+                android:textSize="26sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

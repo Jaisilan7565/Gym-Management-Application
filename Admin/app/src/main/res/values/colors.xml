@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="light_black">#FF222222</color>
+    <color name="light_green">#C6FFDD</color>
+    <color name="lime_yellow">#FBD786</color>
+    <color name="light_red">#f7797d</color>
+    <color name="light_white">#fdeff9</color>
+    <color name="peach">#BF988F</color>
+    <color name="cream">#D8D1CE</color>
+    <color name="transparent">#00000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_deer">#eebf93</color>
+    <color name="magic_red">#FE4365</color>
+    <color name="deep_purple">#A7226E</color>
+    <color name="light_deep_purple">#F10089</color>
+    <color name="prussian_blue">#02354a</color>
+    <color name="yankees_blue">#11253e</color>
+    <color name="slate_grey">#6c8192</color>
+    <color name="mint">#A9F1DC</color>
+    <color name="forest_green">#2C5F2D</color>
+    <color name="moss_green">#8A9A5B</color>
+    <color name="dahlia">#6A8A82</color>
+    <color name="yellow">#FEC20C</color>
+    <color name="greenish">#d0fe1b</color>
+    <color name="teal_green">#1bfeba</color>
+    <color name="red">#fe1b5f</color>
+    <color name="dark_blue">#1b5ffe</color>
+    <color name="grey_blue">#355c7d</color>
+    <color name="pinkish_white">#F8CEEC</color>
+    <color name="light_slate_grey">#adbcb7</color>
+</resources>

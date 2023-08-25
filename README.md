@@ -1,4 +1,4 @@
-# Gym-Management-Application [Connect with me on LinkedIn](https://in.linkedin.com/in/jaisilan-nadar-462646206)
+# Gym-Management-Application 
 
 "GymCog" is a gym management application developed using Android Studio and Java programming language. The application is designed to streamline and enhance the management of a gym facility by offering both the gym owner (admin) and clients/employees dedicated applications with advanced features. The project utilizes the Firebase Database for secure and efficient data management, providing portability and real-time synchronization of information across devices.
 
@@ -38,3 +38,5 @@ Key Features:
    - Data Sync: As the data is stored in Firebase Database, users can access their accounts and information from any device with the application installed.
 
 "GymCog" is a powerful and user-friendly gym management solution that combines the convenience of mobile applications with the security and efficiency of Firebase Database. It empowers gym owners to manage their facilities effectively while providing clients and employees with a seamless experience for all their fitness-related needs.      
+
+### 🔵[Connect with me on LinkedIn](https://in.linkedin.com/in/jaisilan-nadar-462646206)
